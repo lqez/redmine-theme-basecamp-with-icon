@@ -8,9 +8,17 @@ http://www.redmine.org/projects/redmine/wiki/ThemeBasecamp
  - Icon author : Dutch Icon set, http://dutchicon.com/articles/free-icons (CCAS 3.0)
  - Theme and icon modifier : Park Hyun-woo, ez@smartstudy.co.kr
 
+License
+-------
+
 This "basecamp-with-icon" theme is open source and released under the terms of the GNU General Public License v2 (GPL).
 
+
+Screenshot
+----------
+
 ![Alt text](https://raw.github.com/lqez/pastebin/master/img/redmine-theme-basecamp-with-icon.png "Screenshot of redmine-theme-basecamp-with-icon")
+
 
 Install
 -------
