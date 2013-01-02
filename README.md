@@ -10,7 +10,9 @@ http://www.redmine.org/projects/redmine/wiki/ThemeBasecamp
 
 This "basecamp-with-icon" theme is open source and released under the terms of the GNU General Public License v2 (GPL).
 
-INSTALL
+![Alt text](https://raw.github.com/lqez/pastebin/master/img/redmine-theme-basecamp-with-icon.png "Screenshot of redmine-theme-basecamp-with-icon")
+
+Install
 -------
 
 Check out http://www.redmine.org/projects/redmine/wiki/Themes .
@@ -21,7 +23,7 @@ Check out http://www.redmine.org/projects/redmine/wiki/Themes .
  1. Enjoy!
 
 
-DISCLAIMER
+Disclaimer
 ----------
 
 Tested in Redmine v1.3.x / v1.4.x only.
