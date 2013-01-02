@@ -184,33 +184,64 @@ textarea.wiki-edit { font-family: Verdana, Serif; }
 
 hr { background:#eee none repeat scroll 0% 0%; }
 
-div#activity dd, #search-results dd { margin-left: 66px; }
+div#activity dt {
+    margin-left: 20px;
+}
+
+div#activity dt .title {
+    clear: both;
+}
+
+div#activity dt .title a {
+    color: #111;
+}
+
+div#activity dt .author {
+    font-size: 90%;
+    display: block;
+}
+
+div#activity dt .author a {
+    color: #666;
+}
+
+div#activity dt .time {
+    float: right;
+}
+
+div#activity dd { margin-left: 72px;}
 div#activity dd span.description, #search-results dd span.description { 
-    background: #EAEAEA;
+    background: #FFFEEF;
     font-style: normal;
     padding: 10px;
-    border-radius: 7px;
-    margin: 5px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    border: 1px solid #E0DBD1;
+}
+
+div#activity span.project, #search-results span.project {
+    background: #999;
+    padding: 2px 5px;
+    font-size: 85%;
+    border-radius: 8px;
+    color: #FAFAFA;
+}
+div#activity span.project::after, #search-results span.project::after {
+    content: "";
 }
 
 div#activity dd span.description:empty {
     padding: 0;
+    border: 0;
 }
 
-#activity dt div {
-    text-align: center;
-    float: left;
-    margin-right: 5px;
-}
-
-#activity dt div img.gravatar { 
-    float: none;
-    margin: 2px;
-    display: block;
+div#activity dl {
+    margin-left: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DDD;
 }
 
 #activity h3 {
-    padding-top: 12px;
     clear: both;
 }
 
