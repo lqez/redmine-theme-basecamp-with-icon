@@ -53,6 +53,11 @@ p.subtitle {
     border-left: 1px solid #CCC;
     box-shadow: 0px 1px 2px 0px #CCC; 
 }
+
+#main.nosidebar #content {
+    width: auto;
+    border-right: 1px solid #BBB;
+}
 #footer { background-color:#EEEEEE; border: 0px; clear: left; color:#666666; font-size:9px; margin:4px 0 20px 20px; padding-bottom:15px; text-align:left; }
 #footer a:hover { background:#666666 none repeat scroll 0 0; color:#FFFFFF !important;}
 #footer a:link, #footer a:visited { color:#666666; }
@@ -62,7 +67,12 @@ h1, h2, h3, h4 { font-family: "Lucida Grande",arial,sans-serif; }
 h1 { font-size: 24px; font-weight: normal; margin:0pt 0pt 0pt 0.25em; padding:0pt 0pt 8px; text-align:left; }
 h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 { border-bottom: 0px; }
 
-h2, .wiki h1 { background-color: #DDD; margin: -6px -10px 10px; padding: 10px 20px; font-size: 18px; color: #000; }
+h2, .wiki h1 { 
+    margin: -6px -10px 10px; padding: 10px 20px; font-size: 18px; color: #000;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EEE), color-stop(100%,#CCC));
+    background: linear-gradient(to bottom, #EEE 0%,#CCC 100%) #DDD;
+}
+
 .wiki h1 { font-family:"Trebuchet MS",Verdana,sans-serif; font-weight: bold;}
 .wiki h2 { background-color: #fff; }
 
@@ -158,7 +168,6 @@ tr.odd.priority-1 td, tr.even.priority-1 td { border-color: #add7f3; }
 
 p.breadcrumb {
 	background-color:#EEEEEE;
-	border-bottom:1px solid white;
 	font-size:0.9em;
 	margin:-6px -10px 6px;
 	padding:6px;
