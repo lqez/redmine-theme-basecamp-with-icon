@@ -34,4 +34,4 @@ Check out http://www.redmine.org/projects/redmine/wiki/Themes .
 Disclaimer
 ----------
 
-Tested in Redmine v1.3.x / v1.4.x only.
+Tested in Redmine v1.3.x, v1.4.x and v2.1.x only.
