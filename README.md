@@ -25,7 +25,7 @@ Install
 
 Check out http://www.redmine.org/projects/redmine/wiki/Themes .
 
- 1. Clone or copy theme into <redmine>/public/theme/ directory.
+ 1. Clone or copy theme into \<redmine\>/public/theme/ directory.
  1. Choose redmine-theme-basecampe-with-icon theme in Administration > Settings > Display.
  1. (optional) Apply patch for templates via patch command or just run shipped patch.sh script.
  1. Enjoy!
