@@ -100,26 +100,32 @@ h3, h4 { font-weight: normal; }
 
 /* Menu */
 #main-menu { margin: 0 20px; }
-#main-menu li a { background-color: #444; font-weight: normal; padding:6px 12px 8px 32px; }
+#main-menu li a { 
+    background-color: #444; font-weight: normal; padding:6px 12px 8px 32px; 
+    background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; 
+}
 #main-menu li a:hover { background: #999; text-decoration: none; }
 #main-menu li a.selected, #main-menu li a.selected:hover { background-color:#EEEEEE; color: #111; font-weight:bold; }
 
 
 /* Icon */
-#main-menu li a.overview { background-image: url(../images/tab-icon-overview.png); background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; }
-#main-menu li a.activity { background-image: url(../images/tab-icon-activity.png); background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; }
-#main-menu li a.board { background-image: url(../images/tab-icon-board.png); background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; }
-#main-menu li a.documents { background-image: url(../images/tab-icon-documents.png); background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; }
-#main-menu li a.files { background-image: url(../images/tab-icon-files.png); background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; }
-#main-menu li a.issues { background-image: url(../images/tab-icon-issues.png); background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; }
-#main-menu li a.new-issue { background-image: url(../images/tab-icon-new-issue.png); background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; }
-#main-menu li a.gantt { background-image: url(../images/tab-icon-gantt.png); background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; }
-#main-menu li a.news { background-image: url(../images/tab-icon-news.png); background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; }
-#main-menu li a.calendar { background-image: url(../images/tab-icon-calendar.png); background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; }
-#main-menu li a.wiki { background-image: url(../images/tab-icon-wiki.png); background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; }
-#main-menu li a.repository { background-image: url(../images/tab-icon-repository.png); background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; }
-#main-menu li a.settings { background-image: url(../images/tab-icon-settings.png); background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; }
-#main-menu li a.time { background-image: url(../images/tab-icon-time.png); background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; }
+#main-menu li a.overview   { background-image: url(../images/tab-icon-overview.png);}
+#main-menu li a.activity   { background-image: url(../images/tab-icon-activity.png);}
+#main-menu li a.boards     { background-image: url(../images/tab-icon-boards.png);}
+#main-menu li a.documents  { background-image: url(../images/tab-icon-documents.png);}
+#main-menu li a.files      { background-image: url(../images/tab-icon-files.png);}
+#main-menu li a.issues     { background-image: url(../images/tab-icon-issues.png);}
+#main-menu li a.new-issue  { background-image: url(../images/tab-icon-new-issue.png);}
+#main-menu li a.gantt      { background-image: url(../images/tab-icon-gantt.png);}
+#main-menu li a.news       { background-image: url(../images/tab-icon-news.png);}
+#main-menu li a.calendar   { background-image: url(../images/tab-icon-calendar.png);}
+#main-menu li a.wiki       { background-image: url(../images/tab-icon-wiki.png);}
+#main-menu li a.repository { background-image: url(../images/tab-icon-repository.png);}
+#main-menu li a.settings   { background-image: url(../images/tab-icon-settings.png);}
+#main-menu li a.time       { background-image: url(../images/tab-icon-time.png);}
+#main-menu li a.roadmap    { background-image: url(../images/tab-icon-roadmap.png);}
+#main-menu li a.dashboard  { background-image: url(../images/tab-icon-dashboard.png);}
+#main-menu li a.agile      { background-image: url(../images/tab-icon-agile.png);}
 
 
 /* Tables */
