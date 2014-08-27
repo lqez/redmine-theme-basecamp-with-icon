@@ -102,7 +102,9 @@ h3, h4 { font-weight: normal; }
 #main-menu { margin: 0 20px; }
 #main-menu li a { 
     background-color: #444; font-weight: normal; padding:6px 12px 8px 32px; 
-    background-repeat:no-repeat; background-size:18px 18px; background-position:7px 5px; 
+    background-repeat:no-repeat !important;
+    background-size:18px 18px !important;
+    background-position:7px 5px !important; 
 }
 #main-menu li a:hover { background: #999; text-decoration: none; }
 #main-menu li a.selected, #main-menu li a.selected:hover { background-color:#EEEEEE; color: #111; font-weight:bold; }
